@@ -4,7 +4,7 @@ import './Menu.css'
 import { Link } from 'react-router-dom';
 export const Menu = ()=>{
 
-      const [visibleCount, setVisibleCount] = useState(8); 
+ const [visibleCount, setVisibleCount] = useState(8); 
 
   const handleLoadMore = () => {
     setVisibleCount(prev => prev + 12); 
@@ -25,12 +25,12 @@ export const Menu = ()=>{
       <h3>Main Dishes</h3>
       <div className="menu-grid">
         {menuData.foods.slice(0, visibleCount).map(item => (
-          <div key={item.id} className="menu-card">
+          <Link key={item.id} to={`/menu/${item.id}`} className="menu-card">
             <img src={item.img} alt={item.name} />
             <h4>{item.name}</h4>
             <p>{item.description}</p>
             <span>${item.price}</span>
-          </div>
+          </Link>
         ))}
       </div>
       {visibleCount < menuData.foods.length && (

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Menu.css'
 
  export const Drinks = ()=>{
+
+
     return(<>
 
 
@@ -19,12 +21,12 @@ import './Menu.css'
       <h3>Drinks</h3>
       <div className="menu-grid">
         {menuData.drinks.map(item => (
-          <div key={item.id} className="menu-card">
+          <Link  key={item.id} to={`/menu/${item.id}`} className="menu-card">
             <img src={item.img} alt={item.name} />
             <h4>{item.name}</h4>
             <p>{item.description}</p>
             <span>${item.price}</span>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

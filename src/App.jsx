@@ -9,6 +9,7 @@ import { Drinks } from './components/menu/Drinks'
 import { Dessets } from './components/menu/Desserts'
 import { About } from './components/about/About'
 import { Contact } from './components/contact/Contact'
+import { Details } from './components/menu/Details'
 
 function App() {
  
@@ -26,6 +27,7 @@ function App() {
   <Route path="/desserts" element={<Dessets/>}/>
   <Route path="/about" element={<About/>}/>
   <Route path="/contact" element={<Contact/>}/>
+  <Route path="/menu/:id" element={<Details/>} />
 </Routes>
 
 <Footer/>

@@ -18,12 +18,12 @@ export const Dessets =()=>{
        <h3>Desserts</h3>
       <div className="menu-grid">
         {menuData.desserts.map(item => (
-          <div key={item.id} className="menu-card">
+          <Link  key={item.id} to={`/menu/${item.id}`} className="menu-card">
             <img src={item.img} alt={item.name} />
             <h4>{item.name}</h4>
             <p>{item.description}</p>
             <span>${item.price}</span>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

@@ -4,9 +4,12 @@ import './Slider.css'
 
 export const Slider = () => {
   const images = [
-    "flags.jpeg",
-    "old.jpeg",
-    "mount.jpeg",
+    "src/assets/3.jpeg",
+    "src/assets/1.jpeg",
+    "src/assets/tbilisi.jpeg",
+    "src/assets/Грузия.jpeg",
+    "src/assets/qartlis.jpeg"
+  
 
   ];
 
@@ -22,13 +25,16 @@ export const Slider = () => {
     return () => clearInterval(interval);
   }, [images.length]);
 
+
   return (
+
+    <div className="rechange">
     <div
       className="slider"
       style={{
         backgroundImage: `url(${images[currentIndex]})`
       }}
-    >
+    ></div>
       
         <section className="menu-preview">
     

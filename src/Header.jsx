@@ -6,7 +6,7 @@ function Header(){
       <header>
         <Link to='/' className="logoItems">
         <p>Georgian Foods</p>
-        <img id="logo" src="logo.png" alt="Georgian Foods Logo" />
+        <img id="logo" src="/logo.png" alt="Georgian Foods Logo" />
         </Link>
       <nav>
         <ul>
@@ -18,7 +18,7 @@ function Header(){
       </nav>
 
       <div className="georgianFlag">
-        <img src="flag.png" alt="Georgian Flag" />
+        <img src="/flag.png" alt="Georgian Flag" />
       </div>
     </header>
     

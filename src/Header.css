@@ -1,7 +1,7 @@
 header {
     display: flex;
     width: 100%;
-    background-color:#1C1F2A;
+    background-color:#111319;
     height: 68px;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@ header {
     position:fixed;
     top:0;
     left:0;
-    z-index: 9999;
+    z-index: 99999;
 }
 
 
