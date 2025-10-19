@@ -60,13 +60,13 @@ h1{
 .menu-items {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
 }
 
 .item {
  
-  width: 240px;
+  max-width: 240px;
   padding: 10px;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -155,7 +155,7 @@ h1{
 }
 
 
-@media screen and (max-width: 1550px){
+@media screen and (max-width: 1200px){
 
    .rechange{
   display: grid !important;
