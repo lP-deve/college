@@ -19,7 +19,7 @@
 .details-content{
    display: grid;
    grid-template-columns: 1fr 1fr;
-   height: 700px !important;
+   height: 600px !important;
    width: 80%;
    align-items: center;
    justify-content: center;
@@ -31,7 +31,7 @@
 }
 #foodimg{
     border-radius: 10px;
-    height: 700px;
+    height: 600px;
     width: 100%;
     
 }
