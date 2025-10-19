@@ -1,0 +1,45 @@
+import { menuData } from './data';
+import { useState } from 'react';
+import './Menu.css'
+import { Link } from 'react-router-dom';
+export const Menu = ()=>{
+
+      const [visibleCount, setVisibleCount] = useState(10); 
+
+  const handleLoadMore = () => {
+    setVisibleCount(prev => prev + 10); 
+  };
+
+    return(<>
+    
+  <section className="menu">
+      <h2>Our Menu</h2>
+     <nav className='innernavigation'>
+        <ul>
+            <Link to="/menu"><li>main dishes</li></Link>
+            <Link to='/desserts'><li>Desserts</li></Link>
+             <Link to="/drinks"><li>Drinks</li></Link>
+        </ul>
+     </nav>
+
+      <h3>Main Dishes</h3>
+      <div className="menu-grid">
+        {menuData.foods.slice(0, visibleCount).map(item => (
+          <div key={item.id} className="menu-card">
+            <img src={item.img} alt={item.name} />
+            <h4>{item.name}</h4>
+            <p>{item.description}</p>
+            <span>${item.price}</span>
+          </div>
+        ))}
+      </div>
+      {visibleCount < menuData.foods.length && (
+        <button className="load-more" onClick={handleLoadMore}>
+          Show More
+        </button>
+      )}
+
+   </section>
+    
+    </>)
+}

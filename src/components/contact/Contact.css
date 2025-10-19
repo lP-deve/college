@@ -1,0 +1,77 @@
+.contact{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 100%;
+    background-color:#1c1f2afc;
+}
+
+.forms h2{
+    color: #fdf6f0;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 100vh;
+}
+
+form{
+ background-color: #ffffff;
+ width: 80%;
+ padding:60px 30px;
+ border-radius: 12px;
+ margin:0 auto;
+}
+
+input{
+    border:1px solid grey;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    padding:16px;
+    font-size: 16px;
+    color:#4e4c4c;
+    margin-top: 8px;
+}
+label{
+    color:rgb(6, 6, 6);
+    font-size: 18px;
+  
+}
+
+.input, .inp{
+    margin-top: 30px;
+}
+.inp{
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.book-btn {
+  background-color: #03012f;
+  color: #fdf6f0;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  opacity: 0.8;
+}
+

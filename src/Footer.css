@@ -1,0 +1,22 @@
+.contact-info{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    padding-inline: 40px;
+    background-color: #1C1F2A;
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:#E0E2DB;
+}
+
+.contact-info p{
+    font-size: 18px;
+    color:#E0E2DB;
+}

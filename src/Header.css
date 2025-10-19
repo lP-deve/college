@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color:#1C1F2A;
+    height: 68px;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(9px);
+    padding-inline: 40px;
+    position:fixed;
+    top:0;
+    left:0;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+#logo {
+    max-width: 80px;
+}
+
+.logoItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    transition: 0.3s;
+
+}
+
+.logoItems:hover {
+    opacity: 0.6;
+}
+
+.logoItems p {
+    font-family: "Bitter Rose";
+    font-size: 44px;
+
+}
+
+a {
+    color: #E0E2DB;
+}
+
+.georgianFlag img {
+    max-width: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.georgianFlag img:hover {
+    opacity: 0.6;
+    
+}
+
+nav ul li {
+    color: #E0E2DB;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    transition: 0.3s ease-in-out
+}
+
+nav ul li:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media screen and (max-width:440px){
+  header{
+    justify-content: center;
+    gap:12px;
+  }
+}
