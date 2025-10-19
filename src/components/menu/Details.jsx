@@ -12,7 +12,8 @@ export const Details = () => {
 
   return (
     <section className="food-details">
-      <Link to="/menu" className="back-btn">← Back to Menu</Link>
+    
+<div className="back"><Link to="/menu" className="back-btn">← Back to Menu</Link></div>
       <div className="details-content">
          <img  id="foodimg" src={food.img} alt="" />
         <div className="infos">

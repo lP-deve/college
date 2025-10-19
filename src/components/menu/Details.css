@@ -8,6 +8,13 @@
    min-height: 100vh;
      background-color: #dddbda; 
 }
+.back{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 80%;
+
+}
 
 .details-content{
    display: grid;
@@ -20,13 +27,22 @@
    gap:30px;
    border-radius: 12px;
    padding:0px;
-   margin-top: 60px;
+ 
 }
 #foodimg{
     border-radius: 10px;
     height: 700px;
     width: 100%;
     
+}
+.back-btn{
+    color:black;
+    transition: 0.3s;
+     margin-top: 60px;
+     margin-bottom: 22px;
+}
+.back-btn:hover{
+    opacity: 0.7;
 }
 
 .infos{
@@ -86,7 +102,7 @@ span{
    gap:30px;
    border-radius: 12px;
    padding:0px;
-   margin-top: 60px;
+
 }
 #foodimg{
     border-radius: 10px;
@@ -109,11 +125,18 @@ span{
     font-weight: bold;
     margin-right: 12px;
 }
+.back-btn{
+       margin-top: 100px;
+       font-size: 12px;
+}
 
 .flavor{
     font-size: 14px;
     margin-top: 12px;
     margin-bottom: 8px;
+}
+.back{
+    width: 98%;
 }
 .calories{
     font-size: 14px;  
@@ -153,5 +176,8 @@ span{
 } 
 .infos{
     margin-bottom: 90px;
+}
+.back{
+    width: 100%;
 }
 }
