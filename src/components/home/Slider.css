@@ -27,8 +27,8 @@
   text-align: center;
   background-color:#121928 ;
     min-height: 100vh;
-    margin-top: 120px;
-
+    margin-top: 100px;
+    
 }
 
 .description{
@@ -47,14 +47,14 @@
 
 .menu-preview h2 {
   color:rgb(255, 255, 255);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 30px;
   margin-top: 2cqi;
    font-family: "Noto Sans", sans-serif;
 } 
 h1{
       color:rgb(255, 255, 255);
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin-bottom: 30px;
   margin-top: 2cqi;
    font-family: "Noto Sans", sans-serif;
