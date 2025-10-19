@@ -4,15 +4,15 @@ import './Menu.css'
 import { Link } from 'react-router-dom';
 export const Menu = ()=>{
 
-      const [visibleCount, setVisibleCount] = useState(10); 
+      const [visibleCount, setVisibleCount] = useState(8); 
 
   const handleLoadMore = () => {
-    setVisibleCount(prev => prev + 10); 
+    setVisibleCount(prev => prev + 12); 
   };
 
     return(<>
-    
-  <section className="menu">
+    <section className='menuPage'>
+  <div className="menu">
       <h2>Our Menu</h2>
      <nav className='innernavigation'>
         <ul>
@@ -39,7 +39,7 @@ export const Menu = ()=>{
         </button>
       )}
 
-   </section>
-    
+   </div>
+    </section>
     </>)
 }

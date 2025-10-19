@@ -75,3 +75,86 @@ label{
   opacity: 0.8;
 }
 
+
+
+@media screen and (max-width: 1200px){
+  .contact{
+     display: flex;
+     flex-direction: column-reverse;
+  }
+.forms h2{
+    font-size: 28px;
+    
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 100vh;
+}
+
+form{
+ width: 90%;
+ padding:80px 20px;
+}
+
+input{
+    font-size: 12px;
+}
+label{
+    font-size: 16px;
+  
+}
+
+.input, .inp{
+    margin-top: 20px;
+}
+.inp{
+    gap:6px;
+}
+.book-btn {
+  color: #dedddd;
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 460px){
+  .contact{
+     display: flex;
+     flex-direction: column-reverse;
+  }
+.forms h2{
+    font-size: 28px;
+    
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 100vh;
+}
+
+form{
+ width: 90%;
+ padding:30px 12px !important;
+}
+
+input{
+    font-size: 12px;
+}
+label{
+    font-size: 16px;
+  
+}
+
+.input, .inp{
+    margin-top: 20px;
+}
+.inp{
+    gap:6px;
+}
+.book-btn {
+  color: #dedddd;
+  width: 100%;
+}
+
+}

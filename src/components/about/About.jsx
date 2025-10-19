@@ -5,6 +5,7 @@ export const About=()=>{
      <div className="about">
       
       <div className="text">
+        <img src="bg.jpeg" alt=""/>
        <div className="div">
          <h1>About Us</h1>
         <div className="info">
@@ -14,10 +15,11 @@ export const About=()=>{
         
       </div>
       <div className="images">
-        <img src="download (8).jpeg" alt="" />
-        <img src="grandma.jpeg" alt="" />
+          <img src="grandma.jpeg" alt="" />
+        <img className='hide' src="download (8).jpeg" alt="" />
+      
         <img src="food.jpeg" alt="" />
-        <img src="shoti.jpeg" alt="" />
+        <img className='hide' src="shoti.jpeg" alt="" />
       </div>
      </div>
     

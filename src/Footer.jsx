@@ -6,7 +6,7 @@ function Footer(){
          <div className="contact-info">
           <p> 12 Rustaveli Avenue, Tbilisi</p>
           <p> +995 555 123 456</p>
-          <p> Open daily: 10:00 – 23:00</p>
+          <p className='open'> Open daily: 10:00 – 23:00</p>
         </div>
        </footer>
    

@@ -10,7 +10,7 @@ header {
     position:fixed;
     top:0;
     left:0;
-
+    z-index: 9999;
 }
 
 
@@ -74,9 +74,62 @@ nav ul li:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-@media screen and (max-width:440px){
+@media screen and (max-width:460px){
   header{
-    justify-content: center;
-    gap:12px;
+    padding-inline: 6px;
+  }
+
+  .logoItems p{
+    display: none;
+  }
+  .logoItems img{
+    width: 32px;
+    height: 32px;
+  }
+
+  nav ul li{
+    font-size: 12px;
+    margin-right: 12px;
+
+  }
+  nav ul{
+  width: 60vw;
+  justify-content: space-between;
+  display: flex;
+
+  }
+  .georgianFlag img{
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width:1100px){
+  header{
+    padding-inline: 12px;
+  }
+
+  .logoItems p{
+    font-size: 18px;
+  }
+  .logoItems img{
+    width: 32px;
+    height: 32px;
+  }
+
+  nav ul li{
+    font-size: 12px;
+    
+
+  }
+  nav ul{
+  width: 40vw;
+  justify-content: space-between;
+  display: flex;
+
+  }
+  .georgianFlag img{
+    width: 32px;
+    height: 32px;
   }
 }
