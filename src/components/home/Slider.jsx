@@ -4,13 +4,11 @@ import './Slider.css'
 
 export const Slider = () => {
   const images = [
-    "src/assets/3.jpeg",
-    "src/assets/1.jpeg",
-    "src/assets/tbilisi.jpeg",
-    "src/assets/Грузия.jpeg",
-    "src/assets/qartlis.jpeg"
-  
-
+    "/3.jpeg",
+    "/1.jpeg",
+    "/tbilisi.jpeg",
+    "/Грузия.jpeg",
+    "/qartlis.jpeg"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
