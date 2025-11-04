@@ -10,6 +10,7 @@ footer{
     padding-inline: 40px;
      background-color:#111319;
     height: 68px;
+
     align-items: center;
     justify-content: center;
     display: flex;
@@ -17,13 +18,14 @@ footer{
 }
 
 .contact-info p{
-    font-size: 18px;
+    font-size: 16px;
     color:#e0e2dbee;
+      font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 460px){
    .contact-info p{
-    font-size: 12px;
+    font-size: 10px;
 }
 .open{
     display: none;

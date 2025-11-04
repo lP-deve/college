@@ -137,6 +137,14 @@ export const menuData = {
     },
     { id: 27, name: "Natakhtari Lemonade", img: "/limonade.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
       tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
+    },
+    { id: 28, name: "white wine", img: "/white.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
+      tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
+    },{ id: 29, name: "cappuccino", img: "/Cappuccino.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
+      tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
+    },
+    { id: 30, name: "Ice coffee", img: "/cofee.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
+      tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
     }
   ],
 
@@ -168,7 +176,13 @@ export const menuData = {
     { id: 36, name: "Cake", img: "/Tiramisu.jpeg", price: 6, description: "Soft bread-based dessert with sugar syrup and walnuts — simple yet tasty.", flavor: "Sweet, moist, nutty", calories: 340, size: "1 slice",
       tradition: "Georgian-style cakes are homemade with natural ingredients. They’re often baked for birthdays or church feasts, symbolizing love and care from the baker."
     },
-    { id: 37, name: "Cookies", img: "/cookies.jpeg", price: 7, description: "Sweetened roasted eggplant and fruit mix — unusual but authentic.", flavor: "Sweet, fruity, crisp", calories: 210, size: "2 pieces",
+    { id: 37, name: "Cookies", img: "/cookies.jpeg", price: 9, description: "Sweetened roasted eggplant and fruit mix — unusual but authentic.", flavor: "Sweet, fruity, crisp", calories: 210, size: "2 pieces",
+      tradition: "These cookies represent creativity in Georgian baking. Housewives often use leftover fruits to make them, reflecting the country’s zero-waste, home-cooking traditions."
+    },
+     { id: 38, name: "rassberry trats", img: "/rassp.jpeg", price: 7, description: "Sweetened roasted eggplant and fruit mix — unusual but authentic.", flavor: "Sweet, fruity, crisp", calories: 210, size: "2 pieces",
+      tradition: "These cookies represent creativity in Georgian baking. Housewives often use leftover fruits to make them, reflecting the country’s zero-waste, home-cooking traditions."
+    },
+     { id: 39, name: "chocolate musse", img: "/musse.jpeg", price: 10, description: "Sweetened roasted eggplant and fruit mix — unusual but authentic.", flavor: "Sweet, fruity, crisp", calories: 210, size: "2 pieces",
       tradition: "These cookies represent creativity in Georgian baking. Housewives often use leftover fruits to make them, reflecting the country’s zero-waste, home-cooking traditions."
     }
   ]

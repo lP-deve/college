@@ -66,6 +66,9 @@ h1{
   flex-wrap: nowrap;
   gap: 20px;
 }
+.item:hover{
+  opacity: 0.7;
+}
 
 .item {
  

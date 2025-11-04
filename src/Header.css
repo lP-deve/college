@@ -49,10 +49,11 @@ nav ul {
 
 a {
     color: #E0E2DB;
+      font-family: "Montserrat", sans-serif;
 }
 
 .georgianFlag img {
-    max-width: 60px;
+    max-width: 44px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -64,7 +65,7 @@ a {
 
 nav ul li {
     color: #E0E2DB;
-    font-family: "Noto Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
     font-size: 18px;
     transition: 0.3s ease-in-out
 }
@@ -76,7 +77,7 @@ nav ul li:hover {
 }
 @media screen and (max-width:460px){
   header{
-    padding-inline: 6px;
+    padding-inline: 6px !important;
   }
 
   .logoItems p{
@@ -88,9 +89,12 @@ nav ul li:hover {
   }
 
   nav ul li{
-    font-size: 12px;
+    font-size: 10px !important;
     margin-right: 12px;
 
+  }
+  a{
+        font-size: 8px !important;
   }
   nav ul{
   width: 60vw;
@@ -99,8 +103,8 @@ nav ul li:hover {
 
   }
   .georgianFlag img{
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
   }
 }
 
@@ -118,7 +122,7 @@ nav ul li:hover {
   }
 
   nav ul li{
-    font-size: 12px;
+    font-size: 16px;
     
 
   }

@@ -1,7 +1,18 @@
 import { Link } from "react-router-dom"
 import "./Header.css"
+import { useState } from "react";
+
 
 function Header(){
+
+
+  const [isFirst, setIsFirst] = useState(true);
+
+  const handleToggle = () => {
+    setIsFirst(!isFirst);
+  
+  }
+
     return(<>
       <header>
         <Link to='/' className="logoItems">
@@ -18,7 +29,12 @@ function Header(){
       </nav>
 
       <div className="georgianFlag">
-        <img src="/flag.png" alt="Georgian Flag" />
+         <img
+      src={isFirst ? "/flagss.jpeg" : "/logo2.jpg"}
+      alt="Georgian Foods Logo"
+      onClick={handleToggle}
+      style={{ cursor: "pointer", width: "150px" }}
+    />
       </div>
     </header>
     

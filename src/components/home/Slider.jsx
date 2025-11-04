@@ -59,7 +59,7 @@ export const Slider = () => {
           <Link to='/menu'>   <div className="item">
             <img src="Honest Guide to Georgian Cuisine.jpeg" alt="Mtsvadi" />
             <h3>Mtsvadi</h3>
-            <p>Marinated pork or beef grilled to perfection over open flames. grilled fried</p>
+            <p>Marinated  beef grilled to perfection over open flames. grilled fried special taste</p>
           </div></Link>
         </div>
       </section>

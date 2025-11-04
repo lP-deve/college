@@ -9,8 +9,9 @@
     color: #fdf6f0;
     text-align: center;
     margin-top: 120px;
-    font-size: 36px;
+    font-size: 56px;
     margin-bottom: 30px;
+        font-family: "Bitter Rose";
 }
 .img img{
     width: 100%;
@@ -20,7 +21,7 @@
 
 form{
  background-color: #ffffff;
- width: 80%;
+ width: 84%;
  padding:60px 30px;
  border-radius: 12px;
  margin:0 auto;
@@ -39,6 +40,7 @@ input{
 label{
     color:rgb(6, 6, 6);
     font-size: 18px;
+      font-family: "Montserrat", sans-serif;
   
 }
 
@@ -56,8 +58,9 @@ label{
 
 .error {
   color: red;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin-top: 3px;
+
 }
 
 .book-btn {
@@ -83,7 +86,7 @@ label{
      flex-direction: column-reverse;
   }
 .forms h2{
-    font-size: 28px;
+    font-size: 38px;
     
 }
 .img img{
@@ -151,6 +154,11 @@ label{
 }
 .inp{
     gap:6px;
+    flex-direction: column;
+    display: flex;
+}
+.time{
+    width: 100%;
 }
 .book-btn {
   color: #dedddd;
