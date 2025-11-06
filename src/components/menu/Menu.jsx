@@ -29,7 +29,7 @@ export const Menu = ()=>{
             <img src={item.img} alt={item.name} />
             <h4>{item.name}</h4>
             <p>{item.description}</p>
-            <span>${item.price}</span>
+            <span>₾{item.price}</span>
           </Link>
         ))}
       </div>

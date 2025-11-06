@@ -43,7 +43,7 @@ export const menuData = {
       tradition: "Pkhali showcases Georgia’s creative vegetarian cuisine. Traditionally made by women during feasts, it symbolizes balance, color, and the harmony of flavors in Georgian culinary art."
     },
     { 
-      id: 8, name: "", img: "/ბადრიჯანი.jpeg", price: 13, 
+      id: 8, name: "badrijani", img: "/ბადრიჯანი.jpeg", price: 13, 
       description: "Fried eggplant rolls stuffed with walnut-garlic paste — a staple Georgian starter.", 
       flavor: "Nutty, savory, smoky", calories: 260, size: "4 rolls",
       tradition: "Eggplant with walnut paste is served at almost every Georgian Supra (feast). It combines Persian influence with Georgian ingredients, representing the meeting of East and West."
@@ -109,13 +109,13 @@ export const menuData = {
       tradition: "A specialty from mountainous Racha, this creamy chicken dish showcases local dairy traditions. It’s served at family feasts to symbolize warmth and generosity."
     },
     { 
-      id: 21, name: "აჩმა", img: "/აჩმა.jpeg", price: 18, 
+      id: 21, name: "achma", img: "/აჩმა.jpeg", price: 12, 
       description: "Layered cheese-filled pastry — similar to lasagna, a western Georgian favorite.", 
       flavor: "Cheesy, buttery, layered", calories: 540, size: "1 slice",
       tradition: "Acharuli Achma from Samegrelo is a festive dish often prepared for weddings. Its many layers represent unity and togetherness in Georgian family celebrations."
     },
     { 
-      id: 22, name: "ხაჭაპური", img: "/download (5).jpeg", price: 18, 
+      id: 22, name: "khachapuri", img: "/download (5).jpeg", price: 19, 
       description: "Classic cheese bread from Imereti — soft, golden, and full of flavor.", 
       flavor: "Cheesy, soft, savory", calories: 480, size: "1 piece",
       tradition: "Imeretian Khachapuri is one of Georgia’s most famous dishes, baked for guests to symbolize generosity and served during nearly every family feast or Supra."

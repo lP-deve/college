@@ -135,6 +135,9 @@ label{
     font-size: 28px;
     
 }
+label{
+    font-size: 14px;
+}
 .img img{
     width: 100%;
     object-fit: cover;
@@ -149,10 +152,6 @@ form{
 input{
     font-size: 12px;
 }
-label{
-    font-size: 16px;
-  
-}
 
 .input, .inp{
     margin-top: 20px;
@@ -161,6 +160,7 @@ label{
     gap:6px;
     flex-direction: column;
     display: flex;
+    width: 100%;
 }
 .time{
     width: 100%;
