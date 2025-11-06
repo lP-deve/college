@@ -12,7 +12,13 @@ const schema = yup.object().shape({
     .required("Number of guests is required")
     .positive("Guest number must be positive")
     .integer("Guest number must be an integer"),
-  date: yup.date().required("Date is required"),
+   date: yup
+  .date()
+  .transform((value, originalValue) => {
+    return originalValue === "" ? undefined : value;
+  })
+  .required("Date is required"),
+
   time: yup.string().required("Time is required")
 });
 
@@ -45,26 +51,26 @@ export const Contact = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="input">
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" {...register("name")}  placeholder='Enter Your Name'/>
+            <input type="text" id="name" {...register("name")}  placeholder='Enter Your Name'   className={errors.name ? "error-input" : ""}/>
             <p className="error">{errors.name?.message}</p>
           </div>
 
           <div className="input">
             <label htmlFor="number">Number of Guests</label>
-            <input type="text" id="number" placeholder='Enter Guest Number' {...register("number")} />
+            <input type="text" id="number" placeholder='Enter Guest Number' {...register("number")}   className={errors.number ? "error-input" : ""} />
             <p className="error">{errors.number?.message}</p>
           </div>
 
           <div className="inp">
             <div className="date">
               <label htmlFor="date">Date</label>
-              <input type="date" id="date" {...register("date")} />
+              <input type="date" id="date" {...register("date")}  className={errors.date ? "error-input" : ""} />
               <p className="error">{errors.date?.message}</p>
             </div>
 
             <div className="time">
               <label htmlFor="time">Time</label>
-              <input type="time" id="time" {...register("time")} />
+              <input type="time" id="time" className={errors.time ? "error-input" : ""} {...register("time")}  />
               <p className="error">{errors.time?.message}</p>
             </div>
           </div>

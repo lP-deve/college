@@ -16,7 +16,7 @@ function Header(){
     return(<>
       <header>
         <Link to='/' className="logoItems">
-        <p>Georgian Foods</p>
+        <p>Georgian Taste</p>
         <img id="logo" src="/logo.png" alt="Georgian Foods Logo" />
         </Link>
       <nav>

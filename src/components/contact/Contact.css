@@ -56,10 +56,15 @@ label{
     grid-template-columns: 1fr 1fr;
 }
 
+.error-input {
+  border: 1px solid red;
+  outline: none;
+}
 .error {
   color: red;
-  font-size: 0.6rem;
-  margin-top: 3px;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  font-family: cursive;
 
 }
 
@@ -158,6 +163,9 @@ label{
     display: flex;
 }
 .time{
+    width: 100%;
+}
+.date{
     width: 100%;
 }
 .book-btn {

@@ -103,8 +103,8 @@ nav ul li:hover {
 
   }
   .georgianFlag img{
-    width: 22px;
-    height: 22px;
+    width: 22px !important;
+    height: 22px !important;
   }
 }
 
@@ -133,7 +133,7 @@ nav ul li:hover {
 
   }
   .georgianFlag img{
-    width: 32px;
-    height: 32px;
+    width:22px;
+    height: 22px;
   }
 }

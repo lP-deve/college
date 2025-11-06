@@ -49,7 +49,7 @@ export const Slider = () => {
           <Link to='/menu'>  <div className="item">
             <img src="Adjarian Khachapuri with wine.jpeg" alt="Khachapuri" />
             <h3>Adjarian Khachapuri</h3>
-            <p>Freshly baked bread filled with cheese and egg — a true taste of Georgia.</p>
+            <p>Freshly baked bread filled roasted with cheese and egg — a true taste of Georgia.</p>
           </div></Link>
           <Link to='/menu'>  <div className="item">
             <img src="qinkali.jpeg" alt="Khinkali" />

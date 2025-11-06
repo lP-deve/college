@@ -90,9 +90,10 @@ h1{
 }
 
 .item h3 {
-  color: #070707;
+  color: #060606;
   margin-top: 10px;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  margin-bottom: 2px;
 }
 .item p{
   color: rgb(87, 86, 86);
