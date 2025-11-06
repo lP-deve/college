@@ -36,9 +36,9 @@ export const Slider = () => {
 
       <section className="menu-preview">
 
-        <h1>Welcome in Georgian Foods place</h1>
+        <h1>Welcome in Georgian Taste place</h1>
         <p className="description">
-          At <strong>Georgian Foods</strong>, we bring the flavors of Georgia to your table.
+          At <strong>Georgian Taste</strong>, we bring the flavors of Georgia to your table.
           Every dish tells a story — from the mountain herbs of Svaneti to the vineyards of Kakheti.
           Our chefs follow generations-old recipes to create meals that warm the heart and delight the senses.
         </p>
