@@ -55,13 +55,6 @@ label{
     grid-template-columns: 1fr 1fr;
 }
 
-.time input{
-    width: 100%;
-}
-.date input{
-    width: 100%;
-}
-
 .error-input {
   border: 1px solid red;
   outline: none;
@@ -160,9 +153,10 @@ input{
 }
 
 
+
 .inp{
     
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     
  
 }

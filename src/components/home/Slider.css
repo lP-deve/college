@@ -52,12 +52,12 @@
   margin-top: 2cqi;
    font-family: "Noto Sans", sans-serif;
 } 
-h1{
+.menu-preview h1{
       color:rgb(255, 255, 255);
   font-size: 2.2rem;
   margin-bottom: 30px;
   margin-top: 2cqi;
-   font-family: "Noto Sans", sans-serif;
+   font-family: cursive !important;
 }
 
 .menu-items {
@@ -134,13 +134,9 @@ h1{
   font-size: 1rem !important;
   margin-bottom: 30px;
 } 
-h1{
-  text-transform: uppercase;
-  color:rgb(255, 255, 255);
+.menu-preview h1{
   font-size: 1.3rem !important;
-  margin-bottom: 30px;
-  margin-top: 80px;
-   font-family: "Noto Sans", sans-serif;
+
 }
 
 .menu-items {
@@ -194,13 +190,9 @@ h1{
   font-size: 1.6rem;
   margin-bottom: 40px;
 } 
-h1{
-  text-transform: uppercase;
-  color:rgb(255, 243, 243);
-  font-size: 1.8rem;
-  margin-bottom: 40px;
-  margin-top: 100px;
-   font-family: "Noto Sans", sans-serif;
+.menu-preview h1{
+  font-size: 2rem;
+
 }
 
 .menu-items {
@@ -210,8 +202,10 @@ h1{
   margin : auto;
   flex-wrap: wrap !important;
   display: flex;
+  padding-inline: 12px;
  
 }
+
 
 .item {
   width: 260px;
