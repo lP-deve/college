@@ -48,12 +48,21 @@ label{
     margin-top: 30px;
 }
 .inp{
-    justify-content: center;
-    align-items: center;
+
+    place-content: center;
     gap:12px;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.date, .time{
+    width: 100%;
+
+}
+.time input{
+    width: 100%;
+}
+.date input{
+    width: 100%;
 }
 
 .error-input {
@@ -153,21 +162,12 @@ input{
     font-size: 12px;
 }
 
-.input, .inp{
-    margin-top: 20px;
-}
+
 .inp{
-    gap:6px;
-    flex-direction: column;
-    display: flex;
-    width: 100%;
+    
+    grid-template-columns: 1fr;
+    
  
-}
-.time{
-    width: 100%;
-}
-.date{
-    width: 100%;
 }
 .book-btn {
   color: #dedddd;

@@ -31,6 +31,9 @@ div h1{
  font-size: 58px;
  font-family: Bitter rose;
 }
+ .images div img{
+    border-radius: 12px;
+   }
 
 .info{
     background:transparent;
@@ -70,8 +73,11 @@ width: 100%;
 
 .images{
     display: flex !important;
+    margin-bottom: 12px;
 }
-
+.info{
+    margin-bottom: 8px;
+   }
 .info{
 
     width:100%;
@@ -86,9 +92,14 @@ width: 100%;
     h1{
     font-size: 32px !important;
    }
+   .info p{
+    font-size: 18px !important;
+   }
+   
    .images{
     flex-direction: column;
    }
+  
 
 
 }

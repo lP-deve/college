@@ -68,6 +68,7 @@ export const Contact = () => {
               <p className="error">{errors.date?.message}</p>
             </div>
 
+
             <div className="time">
               <label htmlFor="time">Time</label>
               <input type="time" id="time" className={errors.time ? "error-input" : ""} {...register("time")}  />
