@@ -54,10 +54,7 @@ label{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.date, .time{
-    width: 100%;
 
-}
 .time input{
     width: 100%;
 }
