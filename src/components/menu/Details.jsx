@@ -5,7 +5,7 @@ import './Details.css'
 export const Details = () => {
   const { id } = useParams();
     const parsedId = parseInt(id);
- const food =
+    const food =
     menuData.foods.find(item => item.id === parsedId) ||
     menuData.drinks.find(item => item.id === parsedId) ||
     menuData.desserts.find(item => item.id === parsedId);

@@ -3,10 +3,11 @@ export const About=()=>{
     return(<>
     
      <div className="about">
+      <div className="twoIrtems">
       
       <div className="text">
           
-        <img src="bg.jpeg" alt=""/>
+        
        <div className="div">
          <h1>About Us</h1>
         <div className="info">
@@ -19,10 +20,12 @@ export const About=()=>{
 
       <div className="images">
 
-          <img className='hideno'  src="grandma.jpeg" alt="" />
-         <img src="download (8).jpeg" className='hide'  alt="" />
-        <img src="food.jpeg" className='hide' alt="" />
-        <img  src="shoti.jpeg" alt="" />
+        <div>  <img className='hideno'  src="grandma.jpeg" alt="" />
+         <img src="download (8).jpeg" className='hide'  alt="" /></div>
+         <div>        <img src="food.jpeg" className='hide' alt="" />
+        <img  src="shoti.jpeg" alt="" className='shoti' /></div>
+
+      </div>
       </div>
      </div>
     

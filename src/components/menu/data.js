@@ -138,12 +138,12 @@ export const menuData = {
     { id: 27, name: "Natakhtari Lemonade", img: "/limonade.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
       tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
     },
-    { id: 28, name: "white wine", img: "/white.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
+    { id: 100, name: "white wine", img: "/white.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
       tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
-    },{ id: 29, name: "cappuccino", img: "/Cappuccino.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
+    },{ id: 101, name: "cappuccino", img: "/Cappuccino.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
       tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
     },
-    { id: 30, name: "Ice coffee", img: "/cofee.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
+    { id: 102, name: "Ice coffee", img: "/cofee.jpeg", price: 5, description: "Popular Georgian fizzy lemonade — fruity and refreshing.", flavor: "Sweet, citrusy, fizzy", calories: 90, size: "250ml bottle",
       tradition: "Natakhtari Lemonade is a modern Georgian icon. Sold across the country, it represents joy and youth, often enjoyed during picnics and summer celebrations."
     }
   ],
